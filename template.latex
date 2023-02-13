@@ -5,11 +5,21 @@
 \usepackage{blindtext}
 \usepackage{marginnote}
 \usepackage[most]{tcolorbox}
+\usepackage[outputdir=out]{minted} 
+
+\usepackage{hyperref}
 
 \setlength{\marginparwidth}{100pt}
 \setlength{\marginparsep}{5pt}
 \setlength{\oddsidemargin}{20pt}
 \sethlcolor{orange}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    }
 
 \newtcolorbox{mybox}[2][]{colback=red!5!white,
 colframe=red!75!black,fonttitle=\bfseries,
