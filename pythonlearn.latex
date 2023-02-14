@@ -71,5 +71,31 @@ title=#2, #1}
 \author{Waytrue Deng}
 \begin{document}
 \maketitle
+\section{Array Type}
+Things below show the four different types of Array in the python lanuguage
+
+\issue{how to remember the difference of the tuple list dictionary and sets}{
+  \begin{itemize}
+    \item tuple is unchangeable $\longrightarrow$ then other things are positive like ordered,allow duplicate
+    \item dictionary is just like the object in Javascript, use key value pair. dictionary is ordered, changeable, and do not allow duplicates
+    \item set and list are completely opposed, list is ordered, changeable, and allow duplicate. set is unchangeable, unordered , and undupicated
+  \end{itemize}
+
+  \illu{Notes}{
+  List is most often used so is's most versatile, then remember Set just like it's name, imagine that when thing is setted, it's fixed 
+  }
+
+  } 
+
+
+\issue{How to remember set is unodered}{Set items can appear in a different order every time you use them, and cannot be referred to by index or key.}
+
+\begin{iss}{this is test}
+  \begin{verbatim}
+    verbatim
+  \end{verbatim}
+\end{iss}
+
+
 
 \end{document}
